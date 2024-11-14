@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* navber */
+.navber {
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.navber .navleft {
+    width: 50%;
+    height: inherit;
+
+    float: left;
+}
+
+.navber .navleft .navleftbox {
+    width: 210px;
+    height: 60px;
+    margin-left: 40%;
+    line-height: 80px;
+}
+
+.navber .navleft .navleftbox:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.navber .navleft .navleftbox input {
+    border: none;
+    outline: none;
+}
+
+.navber .navleft .navleftbox input::placeholder {
+    color: black;
+    font-size: 12px;
+    padding-left: 5px;
+    background-color: transparent;
+}
+
+.navber .navright {
+    width: 50%;
+    height: inherit;
+
+    float: right;
+}
+
+.navber .navright .navrightbox {
+    width: 500px;
+    height: inherit;
+
+}
+
+.navber .navright .navrightbox a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-inline: 30px;
+    line-height: 80px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.navber .navright .navrightbox #brown {
+    color: #896A5B;
+}
+
+/* navber */
+
+/* hero-section */
+.hero-section {
+    width: 100%;
+    height: 600px;
+    background-image: url(./ASSETS/hero-s.-img.-1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.hero-section h1{
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 2px;
+    font-size: 50px;
+
+}
+.hero-section h1 span{
+    font-weight: 200;
+}
+/* hero-section */
+
+
+
+/* main */
+.main{
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+    margin-block: 20px;
+}
+.main .mainleft{
+    width: 45%;
+    height: inherit;
+    float: left;
+}
+.main .mainleft img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+.main .mainright{
+    width: 55%;
+    height: inherit;
+    float: right;
+    border: 1px solid rgb(196, 196, 196);
+    border-left: none;
+}
+.main .mainright .main-1{
+    width: 90%;
+    margin-left: 25PX;
+    margin-block: 15px;
+}
+.main .mainright .main-1 img{
+    width: 10%;
+    height: 18%;
+    object-fit: cover;
+    float: left;
+}
+.main .mainright .main-1 .main-1-sub{
+    width: 100%;
+    height: 50px;
+    margin-left: 45px;
+}
+.main .mainright .main-1 .main-1-sub p{
+    font-size: 12px;
+    font-weight: 300;
+}
+.main .mainright .main-2{
+    width: 300px;
+    height: 30px;
+    margin-block: -15px;
+    float: left;
+    margin-left: 25px;
+}
+.main .mainright .main-2 h1{
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: none;
+}
+.main .mainright .main-2 p{
+    height: 70px;
+    width: 330px;
+    font-size: 10px;
+    
+}
+.main .mainright .main-3{
+    border-top: 1px solid rgb(196, 196, 196);
+    width: 310px;
+    height: 100px;
+    margin-top: 185px;
+    margin-left: 25px;   
+}
+.main .mainright .main-3 .main-3-sub1 p{
+    font-size: 10px;
+    padding-top: 12px;
+    float: left;
+}
+.main .mainright .main-3 .main-3-sub2{
+    width: 50px;
+    height: 30px;
+    float: right;
+}
+.main .mainright .main-3 .main-3-sub2 span{
+    font-size: 10px;
+    padding-top: 12px;
+}
+.main .mainright .main-3 .main-3-sub2 i{
+    size: 12;
+    color: rgb(185, 87, 87);
+}
+.web111{
+    width: 20%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-left: 40%;
+    margin-block-end: 20px;
+    border: none;
+    
+}
+.web111:hover{
+   cursor: pointer;
+   transition: 0.5s;
+   color: black;
+   background-color: rgb(196, 196, 196);
+   letter-spacing: 2px;
+}
+
+/* main*/
+
+.rrr{
+    width: 50%;
+    height: 250px;
+    margin-left: 25%;
+
+}
+.rrr .hh img{
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+h1{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* footer */
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    color: white;
+    margin-top: -60px;
+    
+
+}
+.footer h2{
+    margin-left: 40%;
+    letter-spacing: 10PX;
+    margin-top: 50PX;
+    line-height: 100PX;
+}
+.footer h5{
+    color: white;
+    margin-left: 42%;
+}
+.footer input{
+    border: 1px solid white;
+ background-color: black;
+ margin-left: 42%;
+ width: 12%;
+ height: 30px;
+ color: white;
+}
+.footer button{
+    border: 1px solid white;
+    background-color: black;
+    margin-left: 42%;
+    width: 12%;
+    margin-top: 10px;
+    height: 30px;
+    color: white;
+}
+.footer button:hover{
+    background-color: rgb(168, 168, 168);
+    cursor: pointer;
+    transition: 0.5s;
+    color: black;
+    letter-spacing: 2px
+}
+.footer .mm{
+margin-left: 30%;
+margin-top: -65px;
+}
+.php{
+    width: 305px;
+    height: 100px;
+    /* background-color: red; */
+    margin-top: -10.5%;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    margin-left: 40%;
+    
+}
+.footer .p1{
+
+    margin-left: 29%;
+    margin-top: -59px;
+
+}
+/* footer */
